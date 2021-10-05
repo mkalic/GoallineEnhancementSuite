@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Make Assignments List Not Suck
-// @version      0.3.2
-// @description  Have the Goalline assignments page show more than just 3 days worth of assignments initially
+// @version      0.3.3
+// @description  Have the Goalline assignments page show a couple months of assignments instead of just 3 days worth initially
 // @author       Marko Kalic
 // @match        https://msa-manitobasoccer.goalline.ca/show_referee_assignments.php
 // @icon         https://www.google.com/s2/favicons?domain=goalline.ca
