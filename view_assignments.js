@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Make Assignments List Not Suck
-// @version      0.3.1
+// @version      0.3.2
 // @description  Have the Goalline assignments page show more than just 3 days worth of assignments initially
 // @author       Marko Kalic
 // @match        https://msa-manitobasoccer.goalline.ca/show_referee_assignments.php
@@ -11,7 +11,8 @@
 // ==/UserScript==
 
 (function() {
-    const DATE_DIFF = 58; // Goalline says it will only allow a date range of 60 days, but it still complains when the difference is actually 60
+    // Goalline says it will only allow a date range of 60 days, but it still complains when the difference is actually 60
+    const DATE_DIFF = 58;
 
     const currentYear = parseInt(document.getElementById('from_year').value);
     const currentMonth = parseInt(document.getElementById('from_month').value);
